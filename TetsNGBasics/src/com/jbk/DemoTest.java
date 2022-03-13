@@ -25,4 +25,12 @@ public class DemoTest {
 		System.out.println("testcase test03");
 		throw new SkipException("skipping a testcase");
 	}
+	
+	@Test
+	public void test04() {
+		System.out.println("testcase test03");
+		throw new SkipException("skipping a testcase");
+	}
+	
+	
 }
